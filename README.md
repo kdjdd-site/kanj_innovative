@@ -138,46 +138,25 @@
     <section id="courses">
       <h2>Courses</h2>
       <p>
-        Available engineering courses under Gujarat Government:
-        <br /><br />
-        /*• B.Tech / B.E. – Bachelor of Engineering/Technology<br />
-        • M.Tech / M.E. – Master of Engineering/Technology<br />
-        • Diploma Engineering – Technical foundation after 10th or 12th<br /><br />
-        Check eligibility, entrance exams, and seat availability in respective
-        government institutes.*/
+       
       </p>
     </section>
 
     <section id="colleges">
       <h2>Government Colleges</h2>
       <p>
-        /*Here you’ll find details of Gujarat Government engineering colleges —
-        including course offerings, admission process, cut-offs, and official
-        apply links (coming soon).*/
+       
       </p>
     </section>
 
     <section id="scholarship">
       <h2>Scholarship Section</h2>
-      /*<p>
-        Explore available Gujarat Government scholarships for engineering and
-        diploma students. Click any scholarship to see:
-      </p>
-      <ul>
-        <li>✅ Eligibility criteria</li>
-        <li>📄 List of required documents</li>
-        <li>📝 Application process & link</li>
-      </ul>
-      <p>*/<br />Scholarship data & forms will be integrated here soon.</p>
+    
     </section>
 
     <section id="contact">
       <h2>Contact / Help</h2>
-      <p>
-        /*Need guidance or help? Contact your college helpdesk or official Gujarat
-        education portals. In future updates, this section will include direct
-        student support and query forms.*/
-      </p>
+   <p>Naman Chauhaan:-9316027621</p>
     </section>
   </div>
 
