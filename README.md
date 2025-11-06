@@ -419,6 +419,68 @@
     </ul>
       </div>
     </div>
+<!-- Scholarship 7 -->
+    <div class="scholarship-box">
+      <button class="toggle-btn" onclick="toggleDetails(this)">
+        ONGC Foundation Scholarship (For Engineering Students)
+      </button>
+    
+      <div class="details">
+        <p><b>Link:</b><br>
+          <a href="https://www.ongcfoundation.org/scholarship" target="_blank">
+            https://www.ongcfoundation.org/scholarship
+          </a>
+        </p>
+
+    <p><b>Expected Amount:</b></p>
+    <ul>
+      <li>₹48,000 per year for 4 years (Total ₹1,92,000)</li>
+      <li>For full-time Engineering (B.E./B.Tech) students in India</li>
+      <li>Scholarship paid annually directly to student’s bank account</li>
+    </ul>
+
+    <p><b>Eligibility Criteria:</b></p>
+    <ul>
+      <li>Must be an Indian citizen and a resident of Gujarat</li>
+      <li>Studying in the first year of Engineering (AICTE-approved institute)</li>
+      <li>Minimum 60% marks in Class 12 (PCM group)</li>
+      <li>Family annual income limit:
+        <ul>
+          <li>SC/ST category: ≤ ₹4,50,000</li>
+          <li>OBC/General category: ≤ ₹2,00,000</li>
+        </ul>
+      </li>
+      <li>Age below 30 years as of 31st December of the academic year</li>
+      <li>Selection based purely on merit and eligibility</li>
+    </ul>
+
+    <p><b>Documents Required:</b></p>
+    <ul>
+      <li>Aadhaar Card</li>
+      <li>Income Certificate (issued by competent authority)</li>
+      <li>Caste Certificate (if applicable)</li>
+      <li>10th & 12th Mark Sheets</li>
+      <li>Admission Letter / Fee Receipt</li>
+      <li>Bonafide Certificate from Institute</li>
+      <li>Bank Passbook copy (student’s name must be printed)</li>
+      <li>Passport-size Photograph</li>
+    </ul>
+
+    <p><b>Application Timeline:</b></p>
+    <ul>
+      <li>Usually opens: October – November</li>
+      <li>Last date: December (varies each year)</li>
+      <li>Apply through ONGC Foundation official website</li>
+    </ul>
+
+    <p><b>Selection Process:</b></p>
+    <ul>
+      <li>Online application submission via ONGC Foundation portal</li>
+      <li>Shortlisting based on academic performance and income</li>
+      <li>Verification and approval by ONGC Foundation committee</li>
+    </ul>
+      </div>
+    </div>
 
         </section>
 
