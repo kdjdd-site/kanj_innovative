@@ -184,8 +184,8 @@
       </p>
     </section>
 
-    <section id="courses">
-      <h2>Courses</h2>
+    <section id="courses/Exams">
+      <h2>Courses/Exams</h2>
       <p>
         Explore B.Tech, BE, M.Tech, ME, and Diploma engineering programs in Gujarat.
       </p>
