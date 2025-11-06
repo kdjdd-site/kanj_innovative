@@ -345,6 +345,81 @@
     </ul>
       </div>
     </div>
+    <!-- Scholarship 4 -->
+    <div class="scholarship-box">
+      <button class="toggle-btn" onclick="toggleDetails(this)">
+        NSP Post-Matric Scholarship (SC/ST/OBC)
+      </button>
+      <div class="details">
+        <p><b>Link:</b><br>
+          <a href="https://scholarships.gov.in" target="_blank">
+            https://scholarships.gov.in
+          </a>
+        </p>
+
+    <p><b>Expected Amount:</b></p>
+    <ul>
+      <li>₹3,000 to ₹12,000 per year (depending on category & course)</li>
+      <li>Full or partial tuition fee reimbursement</li>
+      <li>Hostel maintenance allowance: ₹1,200/month</li>
+    </ul>
+
+    <p><b>Eligibility Criteria:</b></p>
+    <ul>
+      <li>Must belong to SC/ST/OBC category</li>
+      <li>Studying in Class 11 or higher (recognized institution)</li>
+      <li>Annual family income ≤ ₹2,50,000 (SC/ST) or ₹1,50,000 (OBC)</li>
+    </ul>
+
+    <p><b>Documents Required:</b></p>
+    <ul>
+      <li>Caste Certificate</li>
+      <li>Income Certificate</li>
+      <li>Bonafide Certificate</li>
+      <li>Mark Sheets (previous exam)</li>
+      <li>Aadhaar Card</li>
+      <li>Bank Passbook copy</li>
+    </ul>
+    </div>
+      </div>
+  <!-- Scholarship 5 -->
+    <div class="scholarship-box">
+      <button class="toggle-btn" onclick="toggleDetails(this)">
+        AICTE Pragati Scholarship for Girls
+      </button>
+      <div class="details">
+        <p><b>Link:</b><br>
+          <a href="https://www.aicte-pragati-saksham-gov.in" target="_blank">
+            https://www.aicte-pragati-saksham-gov.in
+          </a>
+        </p>
+
+    <p><b>Expected Amount:</b></p>
+    <ul>
+      <li>₹50,000 per annum for tuition fees</li>
+      <li>Additional ₹2,000 per month for 10 months (book allowance)</li>
+      <li>Valid for up to 4 years (UG) or duration of course</li>
+    </ul>
+
+    <p><b>Eligibility Criteria:</b></p>
+    <ul>
+      <li>Girl student admitted to AICTE-approved technical institution</li>
+      <li>Family income ≤ ₹8,00,000 per annum</li>
+      <li>Maximum two girls per family eligible</li>
+    </ul>
+
+    <p><b>Documents Required:</b></p>
+    <ul>
+      <li>Aadhaar Card</li>
+      <li>Family Income Certificate</li>
+      <li>Admission proof (AICTE-approved institute)</li>
+      <li>10th & 12th Mark Sheets</li>
+      <li>Bank Account details</li>
+      <li>Bonafide Certificate from Institute</li>
+    </ul>
+      </div>
+    </div>
+
         </section>
 
     <!-- ====== CONTACT ====== -->
