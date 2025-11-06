@@ -291,7 +291,61 @@
           </ul>
           </div>
         </div>
-    </section>
+        <!-- Scholarship 3 -->
+      <div class="scholarship-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">
+      Reliance Foundation Scholarship
+    </button>
+    <div class="details">
+      <p><b>Link:</b><br>
+        <a href="https://www.reliancefoundation.org/education/scholarships" target="_blank">
+          https://www.reliancefoundation.org/education/scholarships
+        </a>
+      </p>
+
+    <p><b>Expected Amount:</b></p>
+    <ul>
+      <li>Up to ₹2,00,000 per year for Undergraduate students</li>
+      <li>Up to ₹6,00,000 total for Postgraduate students</li>
+      <li>Additional mentorship, networking, and leadership training benefits</li>
+    </ul>
+
+    <p><b>Eligibility Criteria:</b></p>
+    <ul>
+      <li>Must be an Indian citizen</li>
+      <li>Must be enrolled in a recognized undergraduate or postgraduate program in India</li>
+      <li>For UG: Must have passed Class 12 with at least 60% marks</li>
+      <li>For PG: Must have completed a relevant undergraduate degree with good academic record</li>
+      <li>Family income must be ≤ ₹15,00,000 per annum (priority for ≤ ₹2,50,000)</li>
+      <li>Selection based on merit and aptitude test performance</li>
+    </ul>
+
+    <p><b>Documents Required:</b></p>
+    <ul>
+      <li>Aadhaar Card</li>
+      <li>Class 10th & 12th Mark Sheets</li>
+      <li>Income Certificate</li>
+      <li>Bonafide Certificate from current institute</li>
+      <li>Recent Passport-size Photograph</li>
+      <li>Bank Account Proof (student’s name printed)</li>
+      <li>Academic transcripts (UG/PG as applicable)</li>
+    </ul>
+
+    <p><b>Application Timeline:</b></p>
+    <ul>
+      <li>Opens: August every year</li>
+      <li>Closes: Around October</li>
+    </ul>
+
+    <p><b>Selection Process:</b></p>
+    <ul>
+      <li>Online application submission</li>
+      <li>Aptitude test (online)</li>
+      <li>Personal interview (for shortlisted candidates)</li>
+    </ul>
+      </div>
+    </div>
+        </section>
 
     <!-- ====== CONTACT ====== -->
     <section id="contact">
