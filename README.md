@@ -246,6 +246,50 @@
           </ul>
         </div>
       </div>
+      <!-- Scholarship 2 -->
+      <div class="scholarship-box">
+        <button class="toggle-btn" onclick="toggleDetails(this)">
+         Digital Gujarat
+        </button>
+        <div class="details">
+          <p><b>Link:</b> 
+            <a href="[https://www.myscheme.gov.in/schemes/mysy](https://www.digitalgujarat.gov.in)" target="_blank">
+             [ https://www.myscheme.gov.in/schemes/mysy](https://www.digitalgujarat.gov.in)
+            </a>
+          </p>
+
+          <p><b>Eligibility Criteria:</b></p>
+          <ul>
+            <li>Must be a resident of Gujarat</li>
+            <li>Must belong to SC/ST/OBC/EBC/Minority/Physically Disabled category</li>
+            <li>Must be studying in a recognized college or university (in Gujarat or outside Gujarat)</li>
+            <li>Annual family income limit (from all sources):
+            SC/ST: ≤ ₹2,50,000
+            OBC/EBC: ≤ ₹1,50,000 (rural) or ₹1,20,000 (urban)
+            Minority: ≤ ₹2,00,000</li>
+            <li>Must have passed the previous examination with at least 50% markss</li>
+          </ul>
+
+          <p><b>Documents Required:</b></p>
+          <ul>
+            <li>Income Certificate</li>
+            <li>Passport Size Photoes</li>
+            <li>Self-Declaration Form</li>
+            <li>Caste Certificate</li>
+            <li>Aadhaar Card</li>
+            <li>10th & 12th Mark Sheets</li>
+            <li>Institute Certificate</li>
+            <li>Admission Letter & Fee Receipt</li>
+            <li>Non-judicial Affidavit (₹20)</li>
+            <li>Hostel Admission Letter (if applicable)</li>
+          </ul>
+
+          <p><b>Application Timeline (Usually):</b></p>
+         <ul>
+         <li>Opens: June–August every year</li>
+         <li>Last Date: October–November (varies yearly)</li>
+          </ul>
+        </div>
     </section>
 
     <!-- ====== CONTACT ====== -->
