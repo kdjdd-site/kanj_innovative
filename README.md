@@ -92,6 +92,55 @@
       color: #333;
     }
 
+    /* ====== SCHOLARSHIP STYLES ====== */
+    .scholarship-box {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      max-width: 800px;
+      overflow: hidden;
+    }
+
+    .toggle-btn {
+      width: 100%;
+      background: #004aad;
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      text-align: left;
+      font-size: 1.1rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .toggle-btn:hover {
+      background: #0b63f6;
+    }
+
+    .details {
+      display: none;
+      background: #f9fbff;
+      padding: 20px;
+      border-top: 1px solid #cdd8f0;
+      line-height: 1.7;
+      color: #333;
+    }
+
+    .details a {
+      color: #0056d6;
+      text-decoration: underline;
+    }
+
+    .details p {
+      margin-bottom: 10px;
+    }
+
+    .details ul {
+      margin-left: 20px;
+    }
+
     /* ====== RESPONSIVE ====== */
     @media (max-width: 768px) {
       .sidebar {
@@ -138,61 +187,84 @@
     <section id="courses">
       <h2>Courses</h2>
       <p>
-       
+        Explore B.Tech, BE, M.Tech, ME, and Diploma engineering programs in Gujarat.
       </p>
     </section>
 
     <section id="colleges">
       <h2>Government Colleges</h2>
       <p>
-       
+        Discover Gujarat Government Colleges for Engineering and Diploma students.
       </p>
     </section>
 
-   <section id="scholarship">
-  <h2>Scholarship Section</h2>
-  <p>Click a scholarship to view details:</p>
+    <!-- ====== SCHOLARSHIP SECTION ====== -->
+    <section id="scholarship">
+      <h2>Scholarship Section</h2>
+      <p>Click on a scholarship title to view full details:</p>
 
-  <div class="scholarship-box">
-    <button class="toggle-btn">Mukhyamantri Yuva Swavalamban Yojana (MYSY)</button>
-    <div class="details">
-      <p><b>Link:</b> <a href="https://www.myscheme.gov.in/schemes/mysy" target="_blank">https://www.myscheme.gov.in/schemes/mysy</a></p>
-      <p><b>Expected Amount:</b><br>
-        • ₹50,000 tuition fee grant for BE/B.Tech<br>
-        • ₹25,000 tuition fee grant for Diploma<br>
-        • ₹5,000 book/instrument grant for engineering courses<br>
-        • ₹3,000 for diploma students<br>
-        • ₹1,200/month hostel grant for away-from-home students
-      </p>
-      <p><b>Eligibility:</b><br>
-        • Must be from Gujarat<br>
-        • For Diploma: Class X with ≥80%<br>
-        • For Degree: Class XII (Science/General) with ≥80%<br>
-        • For Diploma to Degree: Diploma ≥65%<br>
-        • Family income ≤ ₹6,00,000
-      </p>
-      <p><b>Documents Required:</b><br>
-        • Income Certificate<br>
-        • Self-Declaration Form<br>
-        • Aadhaar Card<br>
-        • 10th & 12th Mark Sheets<br>
-        • Institute Certificate (for new students)<br>
-        • Admission Letter & Fee Receipt<br>
-        • Non-judicial affidavit (₹20)<br>
-        • Hostel Admission Letter (if applicable)
-      </p>
-    </div>
-  </div>
-</section>
+      <!-- Scholarship 1 -->
+      <div class="scholarship-box">
+        <button class="toggle-btn" onclick="toggleDetails(this)">
+          Mukhyamantri Yuva Swavalamban Yojana (MYSY)
+        </button>
+        <div class="details">
+          <p><b>Link:</b> 
+            <a href="https://www.myscheme.gov.in/schemes/mysy" target="_blank">
+              https://www.myscheme.gov.in/schemes/mysy
+            </a>
+          </p>
 
+          <p><b>Expected Amount:</b></p>
+          <ul>
+            <li>₹50,000 tuition fee grant for BE/B.Tech</li>
+            <li>₹25,000 tuition fee grant for Diploma</li>
+            <li>₹5,000 book/instrument grant for engineering courses</li>
+            <li>₹3,000 for diploma students</li>
+            <li>₹1,200/month hostel grant for away-from-home students</li>
+          </ul>
+
+          <p><b>Eligibility:</b></p>
+          <ul>
+            <li>Must be from Gujarat</li>
+            <li>For Diploma: Class X with ≥80%</li>
+            <li>For Degree: Class XII with ≥80%</li>
+            <li>For Diploma to Degree: Diploma ≥65%</li>
+            <li>Family income ≤ ₹6,00,000</li>
+          </ul>
+
+          <p><b>Documents Required:</b></p>
+          <ul>
+            <li>Income Certificate</li>
+            <li>Self-Declaration Form</li>
+            <li>Aadhaar Card</li>
+            <li>10th & 12th Mark Sheets</li>
+            <li>Institute Certificate</li>
+            <li>Admission Letter & Fee Receipt</li>
+            <li>Non-judicial Affidavit (₹20)</li>
+            <li>Hostel Admission Letter (if applicable)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CONTACT ====== -->
     <section id="contact">
       <h2>Contact / Help</h2>
-   <p>Naman Chauhaan:-9316027621</p>
+      <p>Naman Chauhaan: 9316027621</p>
     </section>
   </div>
 
+  <!-- ====== SCRIPT ====== -->
   <script>
-    // Optional JS for active link highlight
+    function toggleDetails(button) {
+      const details = button.nextElementSibling;
+      const isVisible = details.style.display === "block";
+      document.querySelectorAll(".details").forEach(d => d.style.display = "none");
+      if (!isVisible) details.style.display = "block";
+    }
+
+    // Active link highlight
     const links = document.querySelectorAll(".nav-links a");
     links.forEach(link => {
       link.addEventListener("click", () => {
