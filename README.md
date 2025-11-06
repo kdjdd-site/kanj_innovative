@@ -149,35 +149,41 @@
       </p>
     </section>
 
-    <section id="scholarship">
-      <h2>Scholarship Section</h2>
-    <h1>Mukhyamantri Yuva Swavalamban Yojana (MYSY)</h1>
-    <h2>links:-https://www.myscheme.gov.in/schemes/mysy
-    
-    Expected Amount:
-    For engineering/graduate courses: Up to ₹50,000 tuition fee grant for professional graduation (BE/BTech etc) 
-    For diploma courses: Up to ₹25,000 tuition fee grant. 
-    Book/instrument grant: ₹5,000 for engineering/technology/architecture courses; ₹3,000 for diploma. 
-    Hostel grant: ~ ₹1,200/month for students studying away from home.
-      
-    Criteria:
-    Must be from Gujarat. 
-    For diploma: Passed Class X from a recognised board with minimum 80% (for direct diploma) (some sources mention). 
-    For graduation after Class XII: Must have passed Class XII (Science or general stream) with minimum 80%. 
-    For students who did diploma first and then degree: Diploma minimum ~65% to be eligible for degree level. 
-    Parent/Family annual income must be ≤ ₹6,00,000.
+   <section id="scholarship">
+  <h2>Scholarship Section</h2>
+  <p>Click a scholarship to view details:</p>
 
-    Documents Needed: (from sources)
-    Income certificate.
-    Self‐declaration form. 
-    Aadhaar card. 
-    Certificate from institute (for new students). 
-    10th and 12th mark sheets.
-    Admission letter & fee receipt.
-    Affidavit on non‐judicial stamp paper (₹20) in some cases. 
-    If hostel: hostel admission letter & fee receipt. 
-    </h2>
-    </section>
+  <div class="scholarship-box">
+    <button class="toggle-btn">Mukhyamantri Yuva Swavalamban Yojana (MYSY)</button>
+    <div class="details">
+      <p><b>Link:</b> <a href="https://www.myscheme.gov.in/schemes/mysy" target="_blank">https://www.myscheme.gov.in/schemes/mysy</a></p>
+      <p><b>Expected Amount:</b><br>
+        • ₹50,000 tuition fee grant for BE/B.Tech<br>
+        • ₹25,000 tuition fee grant for Diploma<br>
+        • ₹5,000 book/instrument grant for engineering courses<br>
+        • ₹3,000 for diploma students<br>
+        • ₹1,200/month hostel grant for away-from-home students
+      </p>
+      <p><b>Eligibility:</b><br>
+        • Must be from Gujarat<br>
+        • For Diploma: Class X with ≥80%<br>
+        • For Degree: Class XII (Science/General) with ≥80%<br>
+        • For Diploma to Degree: Diploma ≥65%<br>
+        • Family income ≤ ₹6,00,000
+      </p>
+      <p><b>Documents Required:</b><br>
+        • Income Certificate<br>
+        • Self-Declaration Form<br>
+        • Aadhaar Card<br>
+        • 10th & 12th Mark Sheets<br>
+        • Institute Certificate (for new students)<br>
+        • Admission Letter & Fee Receipt<br>
+        • Non-judicial affidavit (₹20)<br>
+        • Hostel Admission Letter (if applicable)
+      </p>
+    </div>
+  </div>
+</section>
 
     <section id="contact">
       <h2>Contact / Help</h2>
