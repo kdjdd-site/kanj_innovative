@@ -151,7 +151,7 @@
 
     <section id="scholarship">
       <h2>Scholarship Section</h2>
-    <p><h1>Mukhyamantri Yuva Swavalamban Yojana (MYSY)</h1>
+    <h1>Mukhyamantri Yuva Swavalamban Yojana (MYSY)</h1>
     <h2>links:-https://www.myscheme.gov.in/schemes/mysy
     
     Expected Amount:
@@ -176,7 +176,7 @@
     Admission letter & fee receipt.
     Affidavit on non‐judicial stamp paper (₹20) in some cases. 
     If hostel: hostel admission letter & fee receipt. 
-    </h2></p>
+    </h2>
     </section>
 
     <section id="contact">
