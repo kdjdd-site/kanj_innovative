@@ -289,6 +289,7 @@
          <li>Opens: June–August every year</li>
          <li>Last Date: October–November (varies yearly)</li>
           </ul>
+          </div>
         </div>
     </section>
 
@@ -297,7 +298,6 @@
       <h2>Contact / Help</h2>
       <p>Naman Chauhaan: 9316027621</p>
     </section>
-  </div>
 
   <!-- ====== SCRIPT ====== -->
   <script>
