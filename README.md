@@ -151,7 +151,32 @@
 
     <section id="scholarship">
       <h2>Scholarship Section</h2>
+    <p><h1>Mukhyamantri Yuva Swavalamban Yojana (MYSY)</h1>
+    <h2>links:-https://www.myscheme.gov.in/schemes/mysy
     
+    Expected Amount:
+    For engineering/graduate courses: Up to ₹50,000 tuition fee grant for professional graduation (BE/BTech etc) 
+    For diploma courses: Up to ₹25,000 tuition fee grant. 
+    Book/instrument grant: ₹5,000 for engineering/technology/architecture courses; ₹3,000 for diploma. 
+    Hostel grant: ~ ₹1,200/month for students studying away from home.
+      
+    Criteria:
+    Must be from Gujarat. 
+    For diploma: Passed Class X from a recognised board with minimum 80% (for direct diploma) (some sources mention). 
+    For graduation after Class XII: Must have passed Class XII (Science or general stream) with minimum 80%. 
+    For students who did diploma first and then degree: Diploma minimum ~65% to be eligible for degree level. 
+    Parent/Family annual income must be ≤ ₹6,00,000.
+
+    Documents Needed: (from sources)
+    Income certificate.
+    Self‐declaration form. 
+    Aadhaar card. 
+    Certificate from institute (for new students). 
+    10th and 12th mark sheets.
+    Admission letter & fee receipt.
+    Affidavit on non‐judicial stamp paper (₹20) in some cases. 
+    If hostel: hostel admission letter & fee receipt. 
+    </h2></p>
     </section>
 
     <section id="contact">
