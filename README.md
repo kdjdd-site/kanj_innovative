@@ -729,10 +729,130 @@
         </section>
 
     <!-- ====== CONTACT ====== -->
-    <section id="Contact">
-      <h2>Contact / Help</h2>
-      <p>Naman Chauhaan: 9316027621</p>
-    </section>
+<!-- ====== CONTACT SECTION ====== -->
+<section id="contact">
+  <h2>Our Team</h2>
+  <p>Meet the team behind <b>Only For Student</b> — working together to empower Gujarat students with verified scholarships and education opportunities.</p>
+
+  <div class="team-container">
+    <!-- Member 1 -->
+    <div class="team-member">
+      <img src="images/krish.jpg" alt="Krish Dodiya">
+      <h3>Krish Dodiya</h3>
+      <p class="role">Founder & Frontend Developer</p>
+      <p class="phone">📞 +91 98765 41070</p>
+      <p class="email">✉️ krish4107@gmail.com</p>
+    </div>
+
+    <!-- Member 2 -->
+    <div class="team-member">
+      <img src="images/naman.jpg" alt="Naman Chauhaan">
+      <h3>Naman Chauhaan</h3>
+      <p class="role">Backend & Database Developer</p>
+      <p class="phone">📞 +91 93160 27621</p>
+      <p class="email">✉️ naman.chauhaan@gmail.com</p>
+    </div>
+
+    <!-- Member 3 -->
+    <div class="team-member">
+      <img src="images/harsh.jpg" alt="Harsh Patel">
+      <h3>Harsh Patel</h3>
+      <p class="role">UI/UX Designer</p>
+      <p class="phone">📞 +91 98245 11234</p>
+      <p class="email">✉️ harshpatel.design@gmail.com</p>
+    </div>
+
+    <!-- Member 4 -->
+    <div class="team-member">
+      <img src="images/riya.jpg" alt="Riya Shah">
+      <h3>Riya Shah</h3>
+      <p class="role">Research & Outreach Coordinator</p>
+      <p class="phone">📞 +91 98765 55678</p>
+      <p class="email">✉️ riyaedu.help@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* ====== CONTACT / TEAM STYLES ====== */
+  #contact {
+    text-align: center;
+    padding: 70px 25px;
+    background: linear-gradient(to bottom, #f5faff, #e9f0ff);
+  }
+
+  #contact h2 {
+    color: #004aad;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  #contact p {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 1.05rem;
+  }
+
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    justify-items: center;
+  }
+
+  .team-member {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 230px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+
+  .team-member img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+
+  .team-member h3 {
+    color: #004aad;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+
+  .team-member .role {
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .team-member .phone,
+  .team-member .email {
+    color: #222;
+    font-size: 0.9rem;
+    margin: 3px 0;
+  }
+
+  .team-member .email {
+    color: #004aad;
+  }
+
+  @media (max-width: 768px) {
+    .team-member {
+      width: 90%;
+    }
+  }
+</style>
+
 
   <!-- ====== SCRIPT ====== -->
   <script>
