@@ -192,7 +192,7 @@
     </section>
 
   <!-- ====== COLLEGES SECTION ====== -->
-    <section id="colleges">
+    <section id="Colleges">
       <h2>College Section</h2>
       <p>Click on a College title to view full details:</p>
 	  
