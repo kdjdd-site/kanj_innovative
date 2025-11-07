@@ -192,6 +192,10 @@
     </section>
 
   <!-- ====== COLLEGES SECTION ====== -->
+    <section id="colleges">
+      <h2>College Section</h2>
+      <p>Click on a College title to view full details:</p>
+	  
       <div class="Colleges-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
           Lalbhai Dalpatbhai College of Engineering
