@@ -191,12 +191,47 @@
       </p>
     </section>
 
-    <section id="colleges">
-      <h2>Government Colleges</h2>
-      <p>
-        Discover Gujarat Government Colleges for Engineering and Diploma students.
-      </p>
-    </section>
+  <!-- College 1 -->
+      <div class="College-box">
+        <button class="toggle-btn" onclick="toggleDetails(this)">
+          Lalbhai Dalpatbhai College of Engineering
+        </button>
+        <div class="details">
+          <p><b>Link:</b> 
+            <a href="http://ldce.ac.in/" target="_blank">
+              L. D. College of Engineering
+            </a>
+          </p>
+
+          <p><b>Fee Structure</b></p>
+          <ul>
+            <li>Boy:1500+college Stationary fee</li>
+            <li>Girls:College Stationary Fee</li>
+            <li>few student: only College Stationary Fee</li>
+          </ul>
+
+          <p><b>Branch</b></p>
+          <ul>
+            <li>Computer Science</li>
+            <li>Civil Engineering</li>
+            <li>Meachanical Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Rubber Engineering</li>
+ 	    <li>AIML Engineering</li>
+	    <li>EC Engineering</li>
+	    <li>More</li>
+          </ul>
+
+          <p><b>feedback</b></p>
+          <ul>
+            <li>Campus big</li>
+            <li>Placement good</li>
+            <li>large activitys</li>
+            <li>many culture Program</li>
+            <li>Many visits</li>
+          </ul>
+        </div>
+      </div>
 
     <!-- ====== SCHOLARSHIP SECTION ====== -->
     <section id="scholarship">
