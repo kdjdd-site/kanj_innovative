@@ -764,7 +764,7 @@
 
     <!-- Member 4 -->
     <div class="team-member">
-      <img src"2.jpg" alt="Jaydeep Makvana">
+      <img src="2.jpg" alt="Jaydeep Makvana">
       <h3>Jaydeep Makvana</h3>
       <p class="role">Researcher</p>
       <p class="phone">📞 +91 98765 55678</p>
