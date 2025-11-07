@@ -191,8 +191,8 @@
       </p>
     </section>
 
-  <!-- ====== COLLEGE SECTION ====== -->
-      <div class="College-box">
+  <!-- ====== COLLEGES SECTION ====== -->
+      <div class="Colleges-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
           Lalbhai Dalpatbhai College of Engineering
         </button>
@@ -234,7 +234,7 @@
       </div>
 
     <!-- ====== SCHOLARSHIP SECTION ====== -->
-    <section id="Scholarship">
+    <section id="scholarship">
       <h2>Scholarship Section</h2>
       <p>Click on a scholarship title to view full details:</p>
 
