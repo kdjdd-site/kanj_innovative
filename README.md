@@ -739,36 +739,36 @@
     <div class="team-member">
       <img src="images/krish.jpg" alt="Krish Dodiya">
       <h3>Krish Dodiya</h3>
-      <p class="role">Founder & Frontend Developer</p>
+      <p class="role"> Developer</p>
       <p class="phone">📞 +91 98765 41070</p>
-      <p class="email">✉️ krish4107@gmail.com</p>
+      <p class="email">✉️ 24eedod@ldce.ac.in</p>
     </div>
 
     <!-- Member 2 -->
     <div class="team-member">
-      <img src="images/naman.jpg" alt="Naman Chauhaan">
-      <h3>Naman Chauhaan</h3>
-      <p class="role">Backend & Database Developer</p>
+      <img src="3.jpg" alt="Abhishek Makwana">
+      <h3>Abhishek Makwana</h3>
+      <p class="role">Creatoer</p>
       <p class="phone">📞 +91 93160 27621</p>
-      <p class="email">✉️ naman.chauhaan@gmail.com</p>
+      <p class="email">✉️ 24eeabh@ldce.ac.in</p>
     </div>
 
     <!-- Member 3 -->
     <div class="team-member">
-      <img src="images/harsh.jpg" alt="Harsh Patel">
-      <h3>Harsh Patel</h3>
-      <p class="role">UI/UX Designer</p>
+      <img src="1.jpg" alt="Naman Chauhaan">
+      <h3>Naman Chauhaan</h3>
+      <p class="role">Researcher+deginer</p>
       <p class="phone">📞 +91 98245 11234</p>
-      <p class="email">✉️ harshpatel.design@gmail.com</p>
+      <p class="email">✉️ 24eenam@ldce.ac.in</p>
     </div>
 
     <!-- Member 4 -->
     <div class="team-member">
-      <img src="images/riya.jpg" alt="Riya Shah">
-      <h3>Riya Shah</h3>
-      <p class="role">Research & Outreach Coordinator</p>
+      <img src"2.jpg" alt="Jaydeep Makvana">
+      <h3>Jaydeep Makvana</h3>
+      <p class="role">Researcher</p>
       <p class="phone">📞 +91 98765 55678</p>
-      <p class="email">✉️ riyaedu.help@gmail.com</p>
+      <p class="email">✉️ 24eejay@ldce.ac.in</p>
     </div>
   </div>
 </section>
