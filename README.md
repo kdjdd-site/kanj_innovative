@@ -166,10 +166,10 @@
     <h1>Only For Student</h1>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
-      <li><a href="#courses">Courses</a></li>
-      <li><a href="#colleges">Colleges</a></li>
+      <li><a href="#Courses/Exams">Courses</a></li>
+      <li><a href="#Colleges">Colleges</a></li>
       <li><a href="#scholarship">Scholarship</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#Contact">Contact</a></li>
     </ul>
   </div>
 
@@ -184,14 +184,14 @@
       </p>
     </section>
 
-    <section id="courses/Exams">
+    <section id="Courses/Exams">
       <h2>Courses/Exams</h2>
       <p>
         Explore B.Tech, BE, M.Tech, ME, and Diploma engineering programs in Gujarat.
       </p>
     </section>
 
-  <!-- College 1 -->
+  <!-- ====== COLLEGE SECTION ====== -->
       <div class="College-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
           Lalbhai Dalpatbhai College of Engineering
@@ -234,7 +234,7 @@
       </div>
 
     <!-- ====== SCHOLARSHIP SECTION ====== -->
-    <section id="scholarship">
+    <section id="Scholarship">
       <h2>Scholarship Section</h2>
       <p>Click on a scholarship title to view full details:</p>
 
@@ -520,7 +520,7 @@
         </section>
 
     <!-- ====== CONTACT ====== -->
-    <section id="contact">
+    <section id="Contact">
       <h2>Contact / Help</h2>
       <p>Naman Chauhaan: 9316027621</p>
     </section>
