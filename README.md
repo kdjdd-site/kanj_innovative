@@ -730,7 +730,7 @@
 
     <!-- ====== CONTACT ====== -->
 <!-- ====== CONTACT SECTION ====== -->
-<section id="contact">
+<section id="Contact">
   <h2>Our Team</h2>
   <p>Meet the team behind <b>Only For Student</b> — working together to empower Gujarat students with verified scholarships and education opportunities.</p>
 
