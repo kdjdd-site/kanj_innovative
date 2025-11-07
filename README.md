@@ -236,6 +236,211 @@
           </ul>
         </div>
       </div>
+	  <!-- College 2 -->
+      <div class="College-box">
+        <button class="toggle-btn" onclick="toggleDetails(this)">
+           Government Engineering College (GEC), rajkot
+        </button>
+        <div class="details">
+          <p><b>Link:</b> 
+            <a href="https://gecrajkot.ac.in/" target="_blank">
+            https://gecrajkot.ac.in/
+            </a>
+          </p>
+
+          <p><b>Fee Structure</b></p>
+          <ul>
+            <li>Boy:1500+college Stationary fee</li>
+            <li>Girls:College Stationary Fee</li>
+            <li>few student: only College Stationary Fee</li>
+          </ul>
+
+          <p><b>Branch</b></p>
+          <ul>
+            <li>Automobile Engineering </li>
+            <li>Information Technology (IT)</li>
+            <li>Civil Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Rubber Engineering</li>
+ 	    <li>AIML Engineering</li>
+	    <li>EC Engineering</li>
+	    <li>More</li>
+          </ul>
+
+          <p><b>feedback</b></p>
+          <ul>
+            <li>Good infrastructure,</li>
+            <li>many culture Program</li>
+            <li>best feculty</li>
+            <li>helpful feculty</li>
+            <li>Many visits</li>
+          </ul>
+        </div>
+      </div>
+	  <!-- College 3 -->
+      <div class="College-box">
+        <button class="toggle-btn" onclick="toggleDetails(this)">
+          Government Engineering College (GEC), Bhavnagar
+        </button>
+        <div class="details">
+          <p><b>Link:</b> 
+            <a href="https://gecbhavnagar.ac.in/" target="_blank">
+           https://gecbhavnagar.ac.in/
+            </a>
+          </p>
+
+          <p><b>Fee Structure</b></p>
+          <ul>
+            <li>Boy:1500+college Stationary fee</li>
+            <li>Girls:College Stationary Fee</li>
+            <li>few student: only College Stationary Fee</li>
+          </ul>
+
+          <p><b>Branch</b></p>
+          <ul>
+            <li>Electronics & Communication Engineering </li>
+            <li>production Engineering</li>
+            <li>biosystem Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Rubber Engineering</li>
+ 	    <li>AIML Engineering</li>
+	    <li>EC Engineering</li>
+	    <li>More</li>
+          </ul>
+
+          <p><b>feedback</b></p>
+          <ul>
+            <li>qualified & helpful feculty</li>
+            <li>Better placements in CSE/IT branches</li>
+            <li>Hostel & canteen facilities average</li>
+            <li>many culture Program</li>
+            <li>Many visits</li>
+          </ul>
+        </div>
+      </div>
+	  <!-- College 4 -->
+      <div class="College-box">
+        <button class="toggle-btn" onclick="toggleDetails(this)">
+          Government engineering college gandhinagar
+        </button>
+        <div class="details">
+          <p><b>Link:</b> 
+            <a href="https://www.gecg28.ac.in/cells/14/" target="_blank">
+              GEC Gandhinagar 
+            </a>
+          </p>
+
+          <p><b>Fee Structure</b></p>
+          <ul>
+            <li>Boy:1500+college Stationary fee</li>
+            <li>Girls:College Stationary Fee</li>
+            <li>few student: only College Stationary Fee</li>
+          </ul>
+
+          <p><b> Bachelour of Engineering Branch</b></p>
+          <ul>
+            <li>Computer Science</li>
+            <li>Civil Engineering</li>
+            <li>Meachanical Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Rubber Engineering</li>
+ 	    <li>AIML Engineering</li>
+	    <li>EC Engineering</li>
+	    <li>Biomedical Engineering</li>
+        <li>Metallurgy Engineering</li>
+	<p><b> master  of Engineering Branch</b></p>
+        <li>Biomedical  Engineering</li>
+        <li>computer  Engineering</li>
+          </ul>
+          <p><b>feedback</b></p>
+          <ul>
+            <li>Campus big</li>
+            <li>Placement good</li>
+            <li>large activitys</li>
+            <li>many culture Program</li>
+            <li>Many visits</li>
+          </ul>
+        </div>
+      </div>
+	  
+	  <!-- College 5 -->
+	  <div class="College-box">
+        <button class="toggle-btn" onclick="toggleDetails(this)">
+          Vishwakarma Government engineering college
+        </button>
+        <div class="details">
+          <p><b>Link:</b> 
+            <a href="https://www.vgecg.ac.in/" target="_blank">
+            </a>
+          </p>
+          <p><b>Fee Structure</b></p>
+          <ul>
+            <li>Boy:1500+college Stationary fee</li>
+            <li>Girls:College Stationary Fee</li>
+            <li>few student: only College Stationary Fee</li>
+          </ul>
+          <p><b>Branch</b></p>
+          <ul>
+            <li>Computer Science</li>
+            <li>Civil Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Rubber Engineering</li>
+ 	    <li>AIML Engineering</li>
+	    <li>EC Engineering</li>
+	    <li>textile enginnering</li>
+          </ul>
+          <p><b>feedback</b></p>
+          <ul>
+            <li>Campus big</li>
+            <li>Placement good</li>
+            <li>large activitys</li>
+            <li>many culture Program</li>
+            <li>Many visits</li>
+          </ul>
+        </div>
+      </div>
+	  <!-- College 6 -->
+      <div class="College-box">
+        <button class="toggle-btn" onclick="toggleDetails(this)">
+          The Maharaja Sayajirao University of Baroda
+        </button>
+        <div class="details">
+          <p><b>Link:</b> 
+            <a href="https://msubaroda.ac.in/" target="_blank">
+            https://msubaroda.ac.in/
+            </a>
+          </p>
+
+          <p><b>Fee Structure</b></p>
+          <ul>
+            <li>Boy:1500+college Stationary fee</li>
+            <li>Girls:College Stationary Fee</li>
+            <li>few student: only College Stationary Fee</li>
+          </ul>
+
+          <p><b>Branch</b></p>
+          <ul>
+            <li>chemical Engineering </li>
+            <li>textile Engineering</li>
+            <li>biosystem Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Rubber Engineering</li>
+ 	    <li>AIML Engineering</li>
+	    <li>EC Engineering</li>
+	    <li>More</li>
+          </ul>
+
+          <p><b>feedback</b></p>
+          <ul>
+            <li>good enviroment</li>
+            <li>Placement good</li>
+            <li>best feculty</li>
+            <li>many culture Program</li>
+            <li>Many visits</li>
+          </ul>
+        </div>
+      </div>
 
     <!-- ====== SCHOLARSHIP SECTION ====== -->
     <section id="scholarship">
