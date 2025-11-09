@@ -283,7 +283,7 @@
       <h2>College Section</h2>
       <p>Click on a College title to view full details:</p>
 	  
-      <div class="Colleges-box">
+      <div class="colleges-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
           Lalbhai Dalpatbhai College of Engineering
         </button>
@@ -530,6 +530,7 @@
           </ul>
         </div>
       </div>
+	  </section>
 
      <!-- ====== SCHOLARSHIP SECTION ====== -->
     <section id="scholarship">
