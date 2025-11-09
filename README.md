@@ -890,7 +890,7 @@
   <div class="team-container">
     <!-- Member 1 -->
     <div class="team-member">
-      <img src="images/krish.jpg" alt="Krish Dodiya">
+      <img src="1396.jpg" alt="Krish Dodiya">
       <h3>Krish Dodiya</h3>
       <p class="role"> Developer</p>
       <p class="phone">📞 +91 98765 41070</p>
