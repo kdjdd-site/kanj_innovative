@@ -185,7 +185,7 @@
     </section>
 
    <!-- ====== ENGINEERING EXAMS FOR GUJARAT STUDENTS ====== -->
-<section id="exams">
+<section id="Courses/Exams">
   <h2>Exams & Opportunities for Gujarat Engineering Students (Final Year)</h2>
   <p>These exams and programs are especially useful for final-year engineering students from Gujarat — to start your career in government, PSU, or higher education.</p>
 
@@ -254,17 +254,6 @@
       <p><b>Eligibility:</b> B.E./B.Tech (any year) students from AICTE-approved Gujarat colleges</p>
       <p><b>Benefits:</b> Free internship opportunities and innovation challenges</p>
       <p><b>Feedback:</b> Great for final-year projects and learning industrial exposure</p>
-    </div>
-  </div>
-
-  <!-- Exam 7 -->
-  <div class="exam-box">
-    <button class="toggle-btn" onclick="toggleDetails(this)">ONGC Foundation Scholarship</button>
-    <div class="details">
-      <p><b>Official Website:</b> <a href="https://www.ongcfoundation.org/scholarship" target="_blank">https://www.ongcfoundation.org/scholarship</a></p>
-      <p><b>Eligibility:</b> Gujarat domicile, Engineering stream, income ≤ ₹4.5 lakh/year</p>
-      <p><b>Benefits:</b> ₹48,000 per year for 4 years</p>
-      <p><b>Feedback:</b> Excellent financial aid and recognition for merit students</p>
     </div>
   </div>
 
