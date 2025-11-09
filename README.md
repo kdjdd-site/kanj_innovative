@@ -119,27 +119,32 @@
       background: #0b63f6;
     }
 
-    .details {
-      display: none;
-      background: #f9fbff;
-      padding: 20px;
-      border-top: 1px solid #cdd8f0;
-      line-height: 1.7;
-      color: #333;
-    }
+  .details {
+  display: none;
+  background: #ffffff; /* pure white background for clear reading */
+  padding: 22px;
+  border-top: 1px solid #cdd8f0;
+  line-height: 1.8;
+  color: #111; /* darker readable font */
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
 
-    .details a {
-      color: #0056d6;
-      text-decoration: underline;
-    }
+.details p, 
+.details li {
+  color: #222; /* visible text for all paragraphs & list items */
+}
 
-    .details p {
-      margin-bottom: 10px;
-    }
+.details b {
+  color: #004aad; /* keep headings blue like your theme */
+}
 
-    .details ul {
-      margin-left: 20px;
-    }
+.details a {
+  color: #004aad;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 
     /* ====== RESPONSIVE ====== */
     @media (max-width: 768px) {
