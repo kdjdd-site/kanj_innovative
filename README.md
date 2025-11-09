@@ -441,6 +441,7 @@
           </ul>
         </div>
       </div>
+	  </section>
 
     <!-- ====== SCHOLARSHIP SECTION ====== -->
     <section id="scholarship">
