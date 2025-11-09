@@ -323,6 +323,7 @@
           </ul>
         </div>
       </div>
+	  
 	  <!-- College 2 -->
       <div class="College-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
@@ -364,6 +365,7 @@
           </ul>
         </div>
       </div>
+	  
 	  <!-- College 3 -->
       <div class="College-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
@@ -528,7 +530,6 @@
           </ul>
         </div>
       </div>
-    </section>
 
      <!-- ====== SCHOLARSHIP SECTION ====== -->
     <section id="scholarship">
