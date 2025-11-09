@@ -184,12 +184,175 @@
       </p>
     </section>
 
-    <section id="Courses/Exams">
-      <h2>Courses/Exams</h2>
-      <p>
-        Explore B.Tech, BE, M.Tech, ME, and Diploma engineering programs in Gujarat.
-      </p>
-    </section>
+   <!-- ====== ENGINEERING EXAMS FOR GUJARAT STUDENTS ====== -->
+<section id="exams">
+  <h2>Exams & Opportunities for Gujarat Engineering Students (Final Year)</h2>
+  <p>These exams and programs are especially useful for final-year engineering students from Gujarat — to start your career in government, PSU, or higher education.</p>
+
+  <!-- Exam 1 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">
+      GPSC Engineering Services (Class 2 & Class 1)
+    </button>
+    <div class="details">
+      <p><b>Official Website:</b> <a href="https://gpsc.gujarat.gov.in" target="_blank">https://gpsc.gujarat.gov.in</a></p>
+      <p><b>Eligibility:</b> Final-year or passed B.E./B.Tech students from Gujarat Government or GTU-affiliated colleges.</p>
+      <p><b>Benefits:</b> Direct entry into Gujarat Government engineering posts — Class 2 Assistant Engineer, Junior Engineer, etc.</p>
+      <p><b>Feedback:</b> High-value exam for permanent government jobs in Gujarat.</p>
+    </div>
+  </div>
+
+  <!-- Exam 2 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">GETCO / PGVCL / MGVCL / DGVCL Recruitment</button>
+    <div class="details">
+      <p><b>Official Website:</b> <a href="https://www.getcogujarat.com" target="_blank">https://www.getcogujarat.com</a></p>
+      <p><b>Eligibility:</b> B.E./B.Tech in Electrical or Civil Engineering (Gujarat domicile preferred)</p>
+      <p><b>Benefits:</b> Gujarat Energy Board jobs with good salary and security</p>
+      <p><b>Feedback:</b> Very popular among power sector engineers — regular recruitment every 1–2 years</p>
+    </div>
+  </div>
+
+  <!-- Exam 3 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">GATE (Graduate Aptitude Test in Engineering)</button>
+    <div class="details">
+      <p><b>Official Website:</b> <a href="https://gate.iitkgp.ac.in" target="_blank">https://gate.iitkgp.ac.in</a></p>
+      <p><b>Eligibility:</b> Final-year or completed B.E./B.Tech (All India eligibility)</p>
+      <p><b>Benefits:</b> M.Tech admission in IITs/NITs & PSU jobs (ONGC, IOCL, NTPC, BHEL)</p>
+      <p><b>Feedback:</b> Top national exam — many Gujarat students crack GATE for PG or PSU jobs.</p>
+    </div>
+  </div>
+
+  <!-- Exam 4 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">ISRO / DRDO Recruitment</button>
+    <div class="details">
+      <p><b>Websites:</b> <a href="https://www.isro.gov.in" target="_blank">ISRO</a> | <a href="https://www.drdo.gov.in" target="_blank">DRDO</a></p>
+      <p><b>Eligibility:</b> B.E./B.Tech with 65% and above in relevant discipline</p>
+      <p><b>Benefits:</b> Scientist/Engineer jobs in national-level research and defense organizations</p>
+      <p><b>Feedback:</b> Dream job for innovation and R&D focused Gujarat students</p>
+    </div>
+  </div>
+
+  <!-- Exam 5 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">SSC JE (Junior Engineer)</button>
+    <div class="details">
+      <p><b>Official Website:</b> <a href="https://ssc.gov.in" target="_blank">https://ssc.gov.in</a></p>
+      <p><b>Eligibility:</b> Diploma/B.Tech in Civil, Electrical, or Mechanical</p>
+      <p><b>Benefits:</b> Central Government JE posts (PWD, MES, CPWD, etc.)</p>
+      <p><b>Feedback:</b> Excellent for Gujarat diploma-to-degree students seeking stable jobs</p>
+    </div>
+  </div>
+
+  <!-- Exam 6 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">AICTE Internship & Innovation Programs</button>
+    <div class="details">
+      <p><b>Official Website:</b> <a href="https://internship.aicte-india.org/" target="_blank">https://internship.aicte-india.org/</a></p>
+      <p><b>Eligibility:</b> B.E./B.Tech (any year) students from AICTE-approved Gujarat colleges</p>
+      <p><b>Benefits:</b> Free internship opportunities and innovation challenges</p>
+      <p><b>Feedback:</b> Great for final-year projects and learning industrial exposure</p>
+    </div>
+  </div>
+
+  <!-- Exam 7 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">ONGC Foundation Scholarship</button>
+    <div class="details">
+      <p><b>Official Website:</b> <a href="https://www.ongcfoundation.org/scholarship" target="_blank">https://www.ongcfoundation.org/scholarship</a></p>
+      <p><b>Eligibility:</b> Gujarat domicile, Engineering stream, income ≤ ₹4.5 lakh/year</p>
+      <p><b>Benefits:</b> ₹48,000 per year for 4 years</p>
+      <p><b>Feedback:</b> Excellent financial aid and recognition for merit students</p>
+    </div>
+  </div>
+
+  <!-- Exam 8 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">GTU Innovation Council (GTUIC) Projects</button>
+    <div class="details">
+      <p><b>Website:</b> <a href="https://gtuinnovationcouncil.ac.in/" target="_blank">https://gtuinnovationcouncil.ac.in/</a></p>
+      <p><b>Eligibility:</b> GTU final-year students (Engineering / Diploma)</p>
+      <p><b>Benefits:</b> Funded projects, startup incubation, and mentoring</p>
+      <p><b>Feedback:</b> Excellent opportunity for students interested in entrepreneurship and tech innovation</p>
+    </div>
+  </div>
+
+  <!-- Exam 9 -->
+  <div class="exam-box">
+    <button class="toggle-btn" onclick="toggleDetails(this)">Gujarat Technical University Placement Portal</button>
+    <div class="details">
+      <p><b>Website:</b> <a href="https://gtuplacement.edu.in" target="_blank">https://gtuplacement.edu.in</a></p>
+      <p><b>Eligibility:</b> Final-year GTU students registered through college TPO</p>
+      <p><b>Benefits:</b> Campus placements, company drives, and skill workshops</p>
+      <p><b>Feedback:</b> Very useful for Gujarat college students for job matching</p>
+    </div>
+  </div>
+</section>
+<style>
+  /* ====== EXAMS SECTION (GUJARAT STUDENTS) ====== */
+  #exams {
+    background: url('images/exams-bg.jpg') center center / cover no-repeat fixed;
+    position: relative;
+    color: #fff;
+    padding: 100px 30px;
+  }
+
+  #exams::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+  }
+
+  #exams h2, #exams p {
+    position: relative;
+    z-index: 1;
+  }
+
+  .exam-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    max-width: 800px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    position: relative;
+    z-index: 1;
+  }
+
+  .toggle-btn {
+    width: 100%;
+    background: rgba(0, 74, 173, 0.9);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+  }
+
+  .toggle-btn:hover {
+    background: #0b63f6;
+  }
+
+  .details {
+    display: none;
+    padding: 20px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .details a {
+    color: #a8d0ff;
+    text-decoration: underline;
+  }
+</style>
+
 
   <!-- ====== COLLEGES SECTION ====== -->
     <section id="Colleges">
