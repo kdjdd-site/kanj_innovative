@@ -18,7 +18,8 @@
     body {
       display: flex;
       min-height: 100vh;
-      color: #fff;
+      background: #f5faff;
+      color: #222;
     }
 
     /* ====== SIDEBAR ====== */
@@ -32,8 +33,7 @@
       padding: 30px 0;
       position: fixed;
       height: 100%;
-      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.2);
-      z-index: 10;
+      box-shadow: 4px 0 12px rgba(0, 0, 0, 0.1);
     }
 
     .sidebar h1 {
@@ -69,75 +69,42 @@
     /* ====== CONTENT AREA ====== */
     .content {
       margin-left: 230px;
-      width: calc(100% - 230px);
-      overflow-x: hidden;
+      padding: 50px;
+      width: 100%;
     }
 
     section {
-      position: relative;
-      padding: 100px 40px;
+      padding: 80px 20px;
       min-height: 100vh;
-      color: #fff;
-    }
-
-    section::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.45); /* overlay */
-      z-index: 0;
-    }
-
-    section h2,
-    section p {
-      position: relative;
-      z-index: 1;
+      border-bottom: 1px solid #ddd;
     }
 
     section h2 {
       font-size: 2rem;
-      color: #fff;
+      color: #004aad;
       margin-bottom: 15px;
-      text-shadow: 0 2px 5px rgba(0,0,0,0.3);
     }
 
     section p {
       max-width: 900px;
       line-height: 1.7;
       font-size: 1.05rem;
-    }
-
-    /* ====== BACKGROUND IMAGES ====== */
-    #home {
-      background: url('images/home-bg.jpg') center center / cover no-repeat fixed;
-    }
-    #Courses\/Exams {
-      background: url('images/courses-bg.jpg') center center / cover no-repeat fixed;
-    }
-    #Colleges {
-      background: url('images/colleges-bg.jpg') center center / cover no-repeat fixed;
-    }
-    #scholarship {
-      background: url('images/scholarship-bg.jpg') center center / cover no-repeat fixed;
-    }
-    #Contact {
-      background: url('images/contact-bg.jpg') center center / cover no-repeat fixed;
+      color: #333;
     }
 
     /* ====== SCHOLARSHIP STYLES ====== */
     .scholarship-box {
-      background: rgba(255, 255, 255, 0.15);
+      background: #fff;
       border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       margin: 20px auto;
       max-width: 800px;
       overflow: hidden;
-      backdrop-filter: blur(8px);
     }
 
     .toggle-btn {
       width: 100%;
-      background: rgba(0, 74, 173, 0.9);
+      background: #004aad;
       color: white;
       border: none;
       padding: 15px 20px;
@@ -154,80 +121,24 @@
 
     .details {
       display: none;
-      background: rgba(255, 255, 255, 0.1);
+      background: #f9fbff;
       padding: 20px;
       border-top: 1px solid #cdd8f0;
       line-height: 1.7;
-      color: #fff;
+      color: #333;
     }
 
     .details a {
-      color: #a8d0ff;
+      color: #0056d6;
       text-decoration: underline;
+    }
+
+    .details p {
+      margin-bottom: 10px;
     }
 
     .details ul {
       margin-left: 20px;
-    }
-
-    /* ====== TEAM SECTION ====== */
-    #Contact h2 {
-      color: #fff;
-      font-size: 2rem;
-      margin-bottom: 15px;
-    }
-
-    .team-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 25px;
-      justify-items: center;
-      position: relative;
-      z-index: 1;
-    }
-
-    .team-member {
-      background: rgba(255, 255, 255, 0.15);
-      border-radius: 15px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-      padding: 20px;
-      width: 230px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      backdrop-filter: blur(6px);
-      color: #fff;
-    }
-
-    .team-member:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
-    }
-
-    .team-member img {
-      width: 100%;
-      height: 210px;
-      object-fit: cover;
-      border-radius: 12px;
-      margin-bottom: 12px;
-    }
-
-    .team-member h3 {
-      color: #fff;
-      font-size: 1.1rem;
-      margin-bottom: 5px;
-    }
-
-    .team-member .role {
-      color: #b0cfff;
-      font-size: 0.95rem;
-      font-weight: 500;
-      margin-bottom: 8px;
-    }
-
-    .team-member .phone,
-    .team-member .email {
-      color: #e8e8e8;
-      font-size: 0.9rem;
-      margin: 3px 0;
     }
 
     /* ====== RESPONSIVE ====== */
@@ -240,14 +151,10 @@
         height: auto;
       }
       .content {
-        margin-left: 0;
-        width: 100%;
+        margin: 0;
       }
       section {
         padding-top: 100px;
-      }
-      .team-member {
-        width: 90%;
       }
     }
   </style>
@@ -268,22 +175,28 @@
 
   <!-- ====== MAIN CONTENT ====== -->
   <div class="content">
-
     <section id="home">
       <h2>Welcome</h2>
-      <p>Welcome to <b>Only For Student</b> — your one-stop platform for Gujarat students after 12th. Explore courses, government colleges, scholarships, eligibility criteria, and application links — all in one place.</p>
+      <p>
+        Welcome to <b>Only For Student</b> — your one-stop platform for Gujarat
+        students after 12th. Explore courses, government colleges, scholarships,
+        eligibility criteria, and application links — all in one place.
+      </p>
     </section>
 
     <section id="Courses/Exams">
       <h2>Courses/Exams</h2>
-      <p>Explore B.Tech, BE, M.Tech, ME, and Diploma engineering programs in Gujarat.</p>
+      <p>
+        Explore B.Tech, BE, M.Tech, ME, and Diploma engineering programs in Gujarat.
+      </p>
     </section>
 
-   <section id="Colleges">
+  <!-- ====== COLLEGES SECTION ====== -->
+    <section id="Colleges">
       <h2>College Section</h2>
       <p>Click on a College title to view full details:</p>
 	  
-      <div class="colleges-box">
+      <div class="Colleges-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
           Lalbhai Dalpatbhai College of Engineering
         </button>
@@ -323,7 +236,6 @@
           </ul>
         </div>
       </div>
-	  
 	  <!-- College 2 -->
       <div class="College-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
@@ -365,7 +277,6 @@
           </ul>
         </div>
       </div>
-	  
 	  <!-- College 3 -->
       <div class="College-box">
         <button class="toggle-btn" onclick="toggleDetails(this)">
@@ -530,9 +441,8 @@
           </ul>
         </div>
       </div>
-	  </section>
 
-     <!-- ====== SCHOLARSHIP SECTION ====== -->
+    <!-- ====== SCHOLARSHIP SECTION ====== -->
     <section id="scholarship">
       <h2>Scholarship Section</h2>
       <p>Click on a scholarship title to view full details:</p>
@@ -818,47 +728,133 @@
 
         </section>
 
+    <!-- ====== CONTACT ====== -->
+<!-- ====== CONTACT SECTION ====== -->
+<section id="Contact">
+  <h2>Our Team</h2>
+  <p>Meet the team behind <b>Only For Student</b> — working together to empower Gujarat students with verified scholarships and education opportunities.</p>
 
-    <section id="Contact">
-      <h2>Our Team</h2>
-      <p>Meet the <b>Only For Student</b> team — helping Gujarat students with all opportunities in one place.</p>
+  <div class="team-container">
+    <!-- Member 1 -->
+    <div class="team-member">
+      <img src="images/krish.jpg" alt="Krish Dodiya">
+      <h3>Krish Dodiya</h3>
+      <p class="role"> Developer</p>
+      <p class="phone">📞 +91 98765 41070</p>
+      <p class="email">✉️ 24eedod@ldce.ac.in</p>
+    </div>
 
-      <div class="team-container">
-        <div class="team-member">
-          <img src="images/krish.jpg" alt="Krish Dodiya">
-          <h3>Krish Dodiya</h3>
-          <p class="role">Developer</p>
-          <p class="phone">📞 +91 98765 41070</p>
-          <p class="email">✉️ 24eedod@ldce.ac.in</p>
-        </div>
+    <!-- Member 2 -->
+    <div class="team-member">
+      <img src="3.jpg" alt="Abhishek Makwana">
+      <h3>Abhishek Makwana</h3>
+      <p class="role">Creatoer</p>
+      <p class="phone">📞 +91 93160 27621</p>
+      <p class="email">✉️ 24eeabh@ldce.ac.in</p>
+    </div>
 
-        <div class="team-member">
-          <img src="3.jpg" alt="Abhishek Makwana">
-          <h3>Abhishek Makwana</h3>
-          <p class="role">Creator</p>
-          <p class="phone">📞 +91 93160 27621</p>
-          <p class="email">✉️ 24eeabh@ldce.ac.in</p>
-        </div>
+    <!-- Member 3 -->
+    <div class="team-member">
+      <img src="1.jpg" alt="Naman Chauhaan">
+      <h3>Naman Chauhaan</h3>
+      <p class="role">Researcher+deginer</p>
+      <p class="phone">📞 +91 98245 11234</p>
+      <p class="email">✉️ 24eenam@ldce.ac.in</p>
+    </div>
 
-        <div class="team-member">
-          <img src="1.jpg" alt="Naman Chauhaan">
-          <h3>Naman Chauhaan</h3>
-          <p class="role">Researcher + Designer</p>
-          <p class="phone">📞 +91 98245 11234</p>
-          <p class="email">✉️ 24eenam@ldce.ac.in</p>
-        </div>
-
-        <div class="team-member">
-          <img src="2.jpg" alt="Jaydeep Makvana">
-          <h3>Jaydeep Makvana</h3>
-          <p class="role">Researcher</p>
-          <p class="phone">📞 +91 98765 55678</p>
-          <p class="email">✉️ 24eejay@ldce.ac.in</p>
-        </div>
-      </div>
-    </section>
+    <!-- Member 4 -->
+    <div class="team-member">
+      <img src="2.jpg" alt="Jaydeep Makvana">
+      <h3>Jaydeep Makvana</h3>
+      <p class="role">Researcher</p>
+      <p class="phone">📞 +91 98765 55678</p>
+      <p class="email">✉️ 24eejay@ldce.ac.in</p>
+    </div>
   </div>
+</section>
 
+<style>
+  /* ====== CONTACT / TEAM STYLES ====== */
+  #contact {
+    text-align: center;
+    padding: 70px 25px;
+    background: linear-gradient(to bottom, #f5faff, #e9f0ff);
+  }
+
+  #contact h2 {
+    color: #004aad;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  #contact p {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 1.05rem;
+  }
+
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    justify-items: center;
+  }
+
+  .team-member {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 230px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+
+  .team-member img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+  }
+
+  .team-member h3 {
+    color: #004aad;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+
+  .team-member .role {
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .team-member .phone,
+  .team-member .email {
+    color: #222;
+    font-size: 0.9rem;
+    margin: 3px 0;
+  }
+
+  .team-member .email {
+    color: #004aad;
+  }
+
+  @media (max-width: 768px) {
+    .team-member {
+      width: 90%;
+    }
+  }
+</style>
+
+
+  <!-- ====== SCRIPT ====== -->
   <script>
     function toggleDetails(button) {
       const details = button.nextElementSibling;
@@ -866,6 +862,17 @@
       document.querySelectorAll(".details").forEach(d => d.style.display = "none");
       if (!isVisible) details.style.display = "block";
     }
+
+    // Active link highlight
+    const links = document.querySelectorAll(".nav-links a");
+    links.forEach(link => {
+      link.addEventListener("click", () => {
+        links.forEach(l => l.classList.remove("active"));
+        link.classList.add("active");
+      });
+    });
   </script>
+</body>
+</html>
 </body>
 </html>
