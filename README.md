@@ -180,14 +180,115 @@
 
   <!-- ====== MAIN CONTENT ====== -->
   <div class="content">
-    <section id="home">
-      <h2>Welcome</h2>
-      <p>
-        Welcome to <b>Only For Student</b> — your one-stop platform for Gujarat
-        students after 12th. Explore courses, government colleges, scholarships,
-        eligibility criteria, and application links — all in one place.
-      </p>
-    </section>
+    <!-- ====== HOME SECTION ====== -->
+<section id="home">
+  <div class="home-overlay">
+    <h2>Welcome to <span class="highlight">Only For Student</span></h2>
+    <p>
+      This website is not just a project — it’s a mission 💡.  
+      I started <b>Only For Student</b> after conducting <b>2 online</b> and <b>1 offline</b> meeting  
+      with engineering students from different colleges in Gujarat.
+    </p>
+
+    <p>
+      During these sessions, I collected real student feedback about  
+      <b>admission struggles, scholarship confusion, and exam guidance</b>.  
+      Every suggestion and problem was analyzed, cross-verified, and  
+      transformed into a practical solution on this platform.
+    </p>
+
+    <p>
+      Today, this site connects <b>Gujarat students</b> with trusted data —  
+      from <b>courses, colleges, exams, to scholarships</b> — all verified  
+      and structured clearly, so every student can take the right step  
+      after 12th without confusion or delay.
+    </p>
+
+    <p class="goal">
+      🎯 <b>Our Mission:</b> To simplify every student’s journey from  
+      12th to professional success — with guidance that’s real, local, and reliable.
+    </p>
+
+    <button class="home-btn" onclick="document.getElementById('Courses/Exams').scrollIntoView({behavior:'smooth'})">
+      Explore Courses
+    </button>
+  </div>
+</section>
+
+<style>
+  /* ====== HOME PAGE STYLING ====== */
+  #home {
+    position: relative;
+    background: url('images/home-bg.jpg') center center / cover no-repeat fixed;
+    color: #fff;
+    text-align: left;
+    padding: 120px 60px;
+    min-height: 100vh;
+  }
+
+  .home-overlay {
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 950px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  }
+
+  #home h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .highlight {
+    color: #00c3ff;
+  }
+
+  #home p {
+    font-size: 1.05rem;
+    color: #f2f2f2;
+    margin-bottom: 18px;
+    line-height: 1.8;
+  }
+
+  .goal {
+    background: rgba(255,255,255,0.1);
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #ffeb99;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  }
+
+  .home-btn {
+    margin-top: 25px;
+    padding: 12px 30px;
+    border: none;
+    background: #004aad;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.3s ease;
+  }
+
+  .home-btn:hover {
+    background: #0b63f6;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    #home {
+      padding: 80px 20px;
+    }
+    .home-overlay {
+      padding: 25px;
+    }
+  }
+</style>
+
 
    <!-- ====== ENGINEERING EXAMS FOR GUJARAT STUDENTS ====== -->
 <section id="Courses/Exams">
